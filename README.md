@@ -18,12 +18,12 @@ Here is a list of tasks I will complete during this internship:
 
 - ✅ Task 1: Network Scanning using Nmap & Wireshark  
 - ✅ Task 2: Phishing Email Analysis  
-- 🔜 Task 3: Vulnerability Assessment  
-- 🔜 Task 4: Web Application Security Testing  
-- 🔜 Task 5: Secure Network Design  
-- 🔜 Task 6: Log Analysis & Incident Response  
-- 🔜 Task 7: Firewall & IDS Configuration  
-- 🔜 Task 8: Cyber Threat Intelligence
+- 🔜 Task 3: 
+- 🔜 Task 4: 
+- 🔜 Task 5: 
+- 🔜 Task 6:   
+- 🔜 Task 7:  
+- 🔜 Task 8: 
 
 > ✅ = Completed | 🔜 = Upcoming
 
