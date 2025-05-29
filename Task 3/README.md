@@ -86,25 +86,17 @@ For the internship deliverable, it's important to document the most significant 
 I made sure to capture screenshots at key stages to illustrate my process and the results. These are included below:
 
 * **Nessus Essentials: Initial Scan Setup Interface**
-    * This shows the "Welcome to Nessus Essentials" prompt, where I entered my target IP for the discovery scan.
-    ![Screenshot 2025-05-29 162300.png](Screenshot%202025-05-29%20162300.png)
+    * Here the "Welcome to Nessus Essentials" prompt, where I entered my target IP for the discovery scan.
 * **Host Discovery Scan Results: Confirmed Host**
     * After the discovery scan, Nessus successfully identified `192.168.159.6` as a live host, ready for a more detailed scan.
-    ![Screenshot 2025-05-29 162425.png](Screenshot%202025-05-29%20162425.png)
     * A view of the vulnerabilities section for the host discovery scan, showing 2 'Info' level findings.
-    ![Screenshot 2025-05-29 170912.png](Screenshot%202025-05-29%20170912.png)
     * The hosts tab for the discovery scan, confirming `192.168.159.6` was found.
-    ![Screenshot 2025-05-29 170941.png](Screenshot%2025-05-29%20170941.png)
 * **Basic Network Scan: Overview of Findings**
-    * This screenshot provides a summary of the vulnerabilities found by the Basic Network Scan, broken down by severity (Critical, High, Medium, Low, Info) for `192.168.159.6`.
-    ![Screenshot 2025-05-29 163304.png](Screenshot%202025-05-29%20163304.png)
+    * Here a summary of the vulnerabilities found by the Basic Network Scan, broken down by severity (Critical, High, Medium, Low, Info) for `192.168.159.6`.
 * **Basic Network Scan: Remediations Tab**
     * This view from the Nessus report highlights the identified vulnerabilities and suggests remediation actions, such as the Node.js and Python Tornado updates.
-    ![Screenshot 2025-05-29 163833.png](Screenshot%202025-05-29%20163833.png)
 * **Detailed Fixes for Node.js Vulnerability**
     * A helpful guide detailing the affected Node.js versions and recommended upgrade steps using various package managers.
-    ![NodeJS_Vulnerability_Fix.jpg](NodeJS_Vulnerability_Fix.jpg)
-
 ---
 
 ## Conclusion
