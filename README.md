@@ -38,7 +38,3 @@ By the end of this internship, I aim to:
 - Learn how to analyze emails, logs, and vulnerabilities effectively.
 - Build a strong portfolio of real-world cybersecurity tasks.
 
----
-
-## 🗂️ Repository Structure
-
