@@ -28,9 +28,9 @@ The primary objective of this task was to:
 
 ## Files in this Repository
 
-* **`[your_capture_filename].pcap`:** This is the raw packet capture file containing all the network traffic recorded during the session. It can be opened and analyzed using Wireshark.
-* **`Short_Report_Protocols_Identified.pdf`:** This document summarizes the protocols identified during the analysis, their descriptions, and observations made from the captured traffic.
-* **`README.md`:** This file.
+* A .pcap extension file is the raw packet capture file containing all the network traffic recorded during the session. It can be opened and analyzed using Wireshark.
+* Protocols_Identified report, this document summarizes the protocols identified during the analysis, their descriptions, and observations made from the captured traffic.
+* Various screenshots of protocols and networks which we captured.
 
 ## Identified Protocols (Summary)
 
