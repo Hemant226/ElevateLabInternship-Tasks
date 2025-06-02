@@ -1,4 +1,4 @@
-#🦈 Task 5: Wireshark Network Traffic Analysis Task
+# 🦈 Task 5: Wireshark Network Traffic Analysis Task
 
 This repository contains the files and report for a basic network traffic analysis task performed using Wireshark. This task is part of the Cyber Security Internship program by Elevate Labs.
 
