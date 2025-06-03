@@ -21,7 +21,7 @@ Here is a list of tasks I will complete during this internship:
 - ✅ Task 3: Basic Vulnerability Scan on PC
 - ✅ Task 4: Firewall Configuration Practice (UFW on Linux)
 - ✅ Task 5: Wireshark Network Traffic Analysis Task
-- ✅ Task 6:   
+- ✅ Task 6: Password Strength Analysis  
 - 🔜 Task 7:  
 - 🔜 Task 8: 
 
