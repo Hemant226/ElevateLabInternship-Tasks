@@ -34,7 +34,7 @@ I tested several passwords, and here's a quick overview of what I found. The sco
 | `MyN@wP&ssw0rd!2025`         | 100%                           | Very Strong   | Excellent mix of uppercase, lowercase, numbers, and symbols; good length.      |
 | `IloveEatingMangoesInSummer!`| 100%                           | Very Strong   | Long passphrase, good complexity with mixed case and a symbol.                   |
 
-*For detailed scoring criteria breakdown, please refer to the screenshots of passwordmeter.com results for each password (provided separately or in the full project report).*
+*For detailed scoring criteria breakdown, please refer to the screenshots of passwordmeter.com results for each password (provided separately).*
 
 ## 💡 Key Learnings & Best Practices
 
