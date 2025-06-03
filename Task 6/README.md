@@ -18,7 +18,7 @@ This project was undertaken as part of a cyber security internship task. The pri
 
 ## 🔧 Tools Used
 
-* **Password Strength Checker:** [passwordmeter.com](https://www.passwordmeter.com/)
+* **Password Strength Checker:** [passwordmeter.com](https://passwordmeter.com/)
 
 ## 📊 Summary of Password Test Results
 
