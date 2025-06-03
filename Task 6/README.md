@@ -26,13 +26,13 @@ I tested several passwords, and here's a quick overview of what I found. The sco
 
 | Password Tested              | Score (from passwordmeter.com) | Complexity    | Key Observations                                                                       |
 | :--------------------------- | :----------------------------- | :------------ | :------------------------------------------------------------------------------------- |
-| `123456`                     | 4%                             | Very Weak     | Extremely common, short, numbers only. [cite: 2]                                           |
-| `qwerty`                     | 8%                             | Very Weak     | Common keyboard pattern, short, predictable. [cite: 2]                                      |
-| `thisisalongpassword`        | 20%                            | Weak          | Long, but only lowercase letters; no numbers or symbols. [cite: 2]                           |
-| `MyNewPassword`              | 50%                            | Good          | Mix of uppercase and lowercase, but missing numbers/symbols. [cite: 2]                   |
-| `MyNewPassword123`           | 100%                           | Very Strong   | Good length, includes uppercase, lowercase, and numbers. [cite: 2]                          |
-| `MyN@wP&ssw0rd!2025`         | 100%                           | Very Strong   | Excellent mix of uppercase, lowercase, numbers, and symbols; good length. [cite: 2]       |
-| `IloveEatingMangoesInSummer!`| 100%                           | Very Strong   | Long passphrase, good complexity with mixed case and a symbol. [cite: 2]                  |
+| `123456`                     | 4%                             | Very Weak     | Extremely common, short, numbers only.                                        |
+| `qwerty`                     | 8%                             | Very Weak     | Common keyboard pattern, short, predictable.                                    |
+| `thisisalongpassword`        | 20%                            | Weak          | Long, but only lowercase letters; no numbers or symbols.                           |
+| `MyNewPassword`              | 50%                            | Good          | Mix of uppercase and lowercase, but missing numbers/symbols.               |
+| `MyNewPassword123`           | 100%                           | Very Strong   | Good length, includes uppercase, lowercase, and numbers.                         |
+| `MyN@wP&ssw0rd!2025`         | 100%                           | Very Strong   | Excellent mix of uppercase, lowercase, numbers, and symbols; good length.      |
+| `IloveEatingMangoesInSummer!`| 100%                           | Very Strong   | Long passphrase, good complexity with mixed case and a symbol.                   |
 
 *For detailed scoring criteria breakdown, please refer to the screenshots of passwordmeter.com results for each password (provided separately or in the full project report).*
 
@@ -40,23 +40,23 @@ I tested several passwords, and here's a quick overview of what I found. The sco
 
 Based on the tests and research, here are the main takeaways for creating strong passwords:
 
-* **Length is Crucial:** Aim for at least 12-15 characters, if not more. Longer passwords are significantly harder to crack. [cite: 3]
-* **Mix It Up:** Combine uppercase letters, lowercase letters, numbers, and symbols. [cite: 5] This drastically increases the complexity.
-* **Avoid the Obvious:** Steer clear of dictionary words, common patterns (like `qwerty`), and easily guessable personal information (birthdays, names). [cite: 6]
-* **Unpredictability Matters:** Randomness makes a password much stronger. `MyN@wP&ssw0rd!2025` is far better than a simpler variation. [cite: 7]
-* **Consider Passphrases:** Memorable sentences or combinations of unrelated words can be both strong and easier to recall (e.g., `YellowTiger@Sky2024!`). [cite: 7]
-* **Don't Reuse Passwords:** A compromised password shouldn't give access to multiple accounts. [cite: 3]
-* **Use Password Managers:** These tools can generate and securely store very strong, unique passwords for all your accounts. [cite: 8]
+* **Length is Crucial:** Aim for at least 12-15 characters, if not more. Longer passwords are significantly harder to crack.
+* **Mix It Up:** Combine uppercase letters, lowercase letters, numbers, and symbols. This drastically increases the complexity.
+* **Avoid the Obvious:** Steer clear of dictionary words, common patterns (like `qwerty`), and easily guessable personal information (birthdays, names). 
+* **Unpredictability Matters:** Randomness makes a password much stronger. `MyN@wP&ssw0rd!2025` is far better than a simpler variation. 
+* **Consider Passphrases:** Memorable sentences or combinations of unrelated words can be both strong and easier to recall (e.g., `YellowTiger@Sky2024!`). 
+* **Don't Reuse Passwords:** A compromised password shouldn't give access to multiple accounts. 
+* **Use Password Managers:** These tools can generate and securely store very strong, unique passwords for all your accounts.
 
 ## 🛡️ Understanding Password Attacks
 
 A key part of this task was understanding *why* strong passwords are necessary.
 
 ### Brute Force Attacks
-These attacks involve trying every possible combination of characters until the correct password is found. [cite: 9] The longer and more complex a password (more character types), the exponentially harder it is for a brute force attack to succeed. [cite: 12] Even a few extra characters or the addition of symbols can increase the time needed to crack a password from seconds to years.
+These attacks involve trying every possible combination of characters until the correct password is found. The longer and more complex a password (more character types), the exponentially harder it is for a brute force attack to succeed. Even a few extra characters or the addition of symbols can increase the time needed to crack a password from seconds to years.
 
 ### Dictionary Attacks
-These attacks use predefined lists of common words, phrases, and known breached passwords to try and guess the correct one. [cite: 14, 15, 16] This is why using simple words like "password" or "sunshine" is very risky. [cite: 20] Complex, unique passwords not found in these dictionaries are the best defense. [cite: 24]
+These attacks use predefined lists of common words, phrases, and known breached passwords to try and guess the correct one. This is why using simple words like "password" or "sunshine" is very risky. Complex, unique passwords not found in these dictionaries are the best defense.
 
 ## ✅ Conclusion
 
