@@ -23,7 +23,7 @@ Here is a list of tasks I will complete during this internship:
 - ✅ Task 5: Wireshark Network Traffic Analysis Task
 - ✅ Task 6: Password Strength Analysis  
 - ✅ Task 7: Identifying and Remove Suspicious Browser Extensions
-- 🔜 Task 8: 
+- ✅ Task 8: Working and Understanding of VPN
 
 > ✅ = Completed | 🔜 = Upcoming
 
