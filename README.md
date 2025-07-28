@@ -7,7 +7,7 @@ This repository contains all the tasks and projects I am completing during my in
 
 ## 🚀 About the Internship
 
-I am currently pursuing a **Cybersecurity Internship at Elevate Labs**, where I am gaining hands-on experience with various tools and techniques used in the field of information security. 
+I have completed a **Cybersecurity Internship at Elevate Labs**, where I am gaining hands-on experience with various tools and techniques used in the field of information security. 
 This internship is designed to enhance my understanding of real-world cyber threats, security analysis, and defensive strategies.
 
 ---
