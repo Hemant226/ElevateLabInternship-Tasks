@@ -27,8 +27,10 @@ def scan():
     # 2. Scan for XSS on discovered links
     print("\n--- Scanning for XSS ---")
     for link in links:
-        if scan_xss(link):
-            vulnerabilities_found.append(f"Reflected XSS found at: {link}")
+        xss_found, xss_findings = scan_xss(link)
+        if xss_found:
+            for finding in xss_findings:
+                vulnerabilities_found.append(finding)
 
     # 3. Scan for SQL Injection in discovered forms
     print("\n--- Scanning for SQL Injection ---")
