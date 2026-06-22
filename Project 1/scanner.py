@@ -11,7 +11,7 @@ def scan_sql_injection(url, form):
     target_url = urljoin(url, action)
     method = form.get('method', 'get').lower()
 
-    inputs = form.find_all(['input', 'textarea'])
+    inputs = form.get('inputs', [])
     vulnerable = False
 
     # Advanced SQLi payloads for different types of injections
@@ -101,7 +101,7 @@ def scan_xss(url, form=None):
         target_url = urljoin(url, action)
         method = form.get('method', 'get').lower()
 
-        inputs = form.find_all(['input', 'textarea'])
+        inputs = form.get('inputs', [])
         for input_tag in inputs:
             input_name = input_tag.get('name')
             input_type = input_tag.get('type', 'text')
