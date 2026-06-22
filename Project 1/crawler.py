@@ -34,7 +34,8 @@ def discover_resources(url):
         action = form.get('action', '')
         method = form.get('method', 'get').lower()
         full_action = urljoin(url, action)
-        forms.append({'method': method, 'action': full_action})
+        inputs = form.find_all(['input', 'textarea'])
+        forms.append({'method': method, 'action': full_action, 'inputs': inputs})
 
     print(f"Discovered {len(links)} links and {len(forms)} forms on {url}")
     return list(links), forms
